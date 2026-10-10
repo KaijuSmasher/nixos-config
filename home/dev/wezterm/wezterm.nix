@@ -8,6 +8,6 @@
       enableBashIntegration = true;
       };
    
-   xdg.configFile."wezterm/wezterm.lua".source =
-   config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/.dotfiles/home/dev/wezterm/wezterm.lua";
+   xdg.configFile."wezterm".source =
+   config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/.dotfiles/home/dev/wezterm/config";
 }
