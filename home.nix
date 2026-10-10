@@ -4,6 +4,7 @@
   ...
 }: {
   imports = [
+    ./home/apps.nix
     ./home/dev/sh.nix
     ./home/dev/git.nix
     ./home/dev/wezterm/wezterm.nix
@@ -24,10 +25,7 @@
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
-  home.packages = [
-    # # Adds the 'hello' command to your environment. It prints a friendly
-    # # "Hello, world!" when run.
-    pkgs.hello
+  home.packages = with pkgs; [
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the

@@ -9,7 +9,6 @@
   imports = [
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
-    ./system/apps.nix
     ./system/boot.nix
     ./system/desktop.nix
     ./system/dev.nix
