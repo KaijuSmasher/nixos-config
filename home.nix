@@ -6,6 +6,7 @@
   imports = [
     ./home/dev/sh.nix
     ./home/dev/git.nix
+    ./home/dev/wezterm/wezterm.nix
   ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
