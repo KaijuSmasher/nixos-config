@@ -26,6 +26,11 @@ in {
     };
   };
 
+  programs.starship.enable = true;
+
+  xdg.configFile."starship.toml".source =
+  config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/.dotfiles/home/dev/sh/starship.toml";
+
   # Companions that make zsh much nicer
   programs.fzf.enable = true;		# Ctrl-R fuzzy history, Ctrl-T  directory/file, Alt-C sub-directory
   programs.zoxide.enable = true;	# Smarter "cd", use "z" or "zi"

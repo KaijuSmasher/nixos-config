@@ -5,7 +5,7 @@
 }: {
   imports = [
     ./home/apps.nix
-    ./home/dev/sh.nix
+    ./home/dev/sh/sh.nix
     ./home/dev/git.nix
     ./home/dev/wezterm/wezterm.nix
     ./home/dev/nvim/nvim.nix
