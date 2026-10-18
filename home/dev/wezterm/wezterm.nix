@@ -1,13 +1,16 @@
-{config, pkgs, ...}:
 {
-   home.packages = [pkgs.nerd-fonts.jetbrains-mono];
+  config,
+  pkgs,
+  ...
+}: {
+  home.packages = [pkgs.nerd-fonts.jetbrains-mono];
 
-   programs.wezterm = {
-      enable = true;
-      enableZshIntegration = true;
-      enableBashIntegration = true;
-      };
-   
-   xdg.configFile."wezterm".source =
-   config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/.dotfiles/home/dev/wezterm/config";
+  programs.wezterm = {
+    enable = true;
+    enableZshIntegration = true;
+    enableBashIntegration = true;
+  };
+
+  xdg.configFile."wezterm".source =
+    config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/.dotfiles/home/dev/wezterm/config";
 }

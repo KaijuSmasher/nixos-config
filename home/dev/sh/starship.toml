@@ -15,11 +15,19 @@ $character"""
 [username]
 disabled = false
 show_always = true
-format = '[$user]($style)@ '
+format = '[$user]($style)'
+
+[hostname]
+ssh_only = false
+format = '@[$hostname]($style)'
+
+[directory]
+truncation_length = 3
+truncation_symbol = ".../"
 
 [character]
-success_symbol = "[➜](bold green)"
-error_symbol = "[➜](bold red)"
+success_symbol = "[➜]($style)"
+error_symbol = "[➜]($style)"
 
 [cpp]
 disabled = false
