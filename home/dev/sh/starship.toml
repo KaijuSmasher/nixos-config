@@ -8,20 +8,14 @@ $cmd_duration\
 $fill\
 $c\
 $cpp\
-$dotnet\
-$java\
 $lua\
-$python\
-$nodejs\
-$aws\
-$docker_context\
-$jobs\
 $line_break\
 $character"""
 
 [username]
 disabled = false
 show_always = true
+format = '[$user]($style)@ '
 
 [character]
 success_symbol = "[➜](bold green)"
@@ -29,5 +23,3 @@ error_symbol = "[➜](bold red)"
 
 [cpp]
 disabled = false
-symbol = " "
-style = "bold blue"
