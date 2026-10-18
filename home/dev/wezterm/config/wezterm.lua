@@ -1,7 +1,7 @@
 local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
-config.color_scheme = 'Tokyo Night Storm'
+config.color_scheme = 'Saber Alter'
 
 -- Window
 config.enable_wayland = false

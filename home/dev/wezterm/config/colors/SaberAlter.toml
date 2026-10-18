@@ -1,0 +1,37 @@
+[metadata]
+name = "Saber Alter"
+author = "Custom Fate Scheme"
+
+[colors]
+# The obsidian-black armor tone
+background = "#111215" 
+# Cursed visor gold/pale skin tint
+foreground = "#eeede9" 
+
+cursor_bg = "#953232"
+cursor_fg = "#111215"
+selection_bg = "#511f20"
+selection_fg = "#eeede9"
+
+ansi = [
+  "#111215", # black (Armor base)
+  "#953232", # red (Excalibur Morgan crimson)
+  "#3f2a47", # green (Substituted with dark corrupted purple)
+  "#ffd700", # yellow (Visor gold)
+  "#2c1f30", # blue (Deep tainted magic)
+  "#a052ad", # magenta (Bursting dark energy)
+  "#4d5668", # cyan (Muted steel)
+  "#d5d2cb"  # white (Pale dress cloth)
+]
+
+brights = [
+  "#212328", # bright black
+  "#c83f3f", # bright red
+  "#5c3e66", # bright green/purple
+  "#fce2a5", # bright yellow
+  "#4d3354", # bright blue
+  "#c774d6", # bright magenta
+  "#6d7b96", # bright cyan
+  "#ffffff"  # bright white
+]
+
