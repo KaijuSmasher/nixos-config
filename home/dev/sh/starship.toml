@@ -25,9 +25,26 @@ format = '@[$hostname]($style)'
 truncation_length = 3
 truncation_symbol = ".../"
 
+[cmd_duration]
+disabled = false
+show_milliseconds = false
+format = '[$duration]($style)'
+
+[c]
+disabled = false
+symbol = 'c '
+format = '[$symbol($name)]($style)'
+
+[cpp]
+disabled = false
+symbol = 'c++ '
+format = '[$symbol($name)]($style)'
+
+[lua]
+disabled = false
+format = '[$symbol]($style)'
+
 [character]
 success_symbol = "[➜]($style)"
 error_symbol = "[➜]($style)"
 
-[cpp]
-disabled = false
